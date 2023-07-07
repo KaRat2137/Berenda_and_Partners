@@ -24,12 +24,12 @@ window.addEventListener('scroll', () => {
   if(elementIsVisibleInViewport(gandhiElement)) {
     let scaleValue = parseFloat(regExp.exec(gandhiElement.style.transform)[1])
     if(isScrollingDown()) {
-      if(scaleValue <= 1.7) {
-        gandhiElement.style.transform = `scale(${scaleValue + 0.003})`
+      if(scaleValue <= 1.3) {
+        gandhiElement.style.transform = `scale(${scaleValue + 0.001})`
       }
     } else {
       if(scaleValue >= 1) {
-        gandhiElement.style.transform = `scale(${scaleValue - 0.003})`
+        gandhiElement.style.transform = `scale(${scaleValue - 0.001})`
       }
     }
   }
