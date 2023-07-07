@@ -163,7 +163,7 @@ section {
     align-items: center;
   }
 
-  #gandhi2 {
+  .gandhi2 {
     font-size: 1.7rem;
     font-style: italic;
     color: #ffffff;
@@ -174,7 +174,7 @@ section {
   .gandhi3 {
     font-size: 1.2rem;
     color: #ffffff;
-    align-items: right;
+    text-align: right;
     margin-left: 50%;
     margin-top: 20px;
   }

@@ -1,12 +1,10 @@
-let gandhiTwoElement = document.getElementById("gandhi2")
 let gandhiElement = document.getElementById("gandhi-text")
 let oldScrollY = window.scrollY
 let regExp = /\(([^)]+)\)/;
 
 window.addEventListener('scroll', () => {
-  if(elementIsVisibleInViewport(gandhiTwoElement)) {
+  if(elementIsVisibleInViewport(gandhiElement)) {
     let scaleValue = parseFloat(regExp.exec(gandhiElement.style.transform)[1])
-    console.log(scaleValue)
     if(isScrollingDown()) {
       if(scaleValue <= 1.7) {
         gandhiElement.style.transform = `scale(${scaleValue + 0.003})`
