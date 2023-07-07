@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'Titillium Web';
+  src: url('TitilliumWeb-Regular.ttf');
+}
 body {
     background-color: #F7F7F7;
     font-family: "Titillium Web", sans-serif;
@@ -148,17 +152,18 @@ section {
     color: #ffffff;
   }
 
-  .gandhi {
+  #gandhi {
     background-color: #822825;
     padding-top: 100px;
     padding-bottom: 100px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: left;
+    justify-content: center;
     align-items: center;
   }
 
-  .gandhi2 {
+  #gandhi2 {
     font-size: 1.7rem;
     font-style: italic;
     color: #ffffff;
@@ -213,6 +218,13 @@ section {
   }
   
   #coachingpicture {
+    background: url(coach.png);
+    background-size: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: 41px;
     width: 100%;
   }
 
@@ -273,11 +285,19 @@ section {
     background-color: #2B2B2B;
     color: #ffffff;
     font-size: 1.5rem;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 }
 
   .happygroup {
-   align-self: left;
+    background: url(group_1.png);
+    background-size: 100%;
+    background-position-y: 20px;
+    height: 500px;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    align-self: left;
   }
 
   .greyimage {
