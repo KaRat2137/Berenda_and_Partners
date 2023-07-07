@@ -285,14 +285,13 @@ section {
     background-color: #2B2B2B;
     color: #ffffff;
     font-size: 1.5rem;
-    padding-bottom: 100px;
 }
 
   .happygroup {
     background: url(group_1.png);
     background-size: 100%;
+    height: 700px;
     background-position-y: 20px;
-    height: 500px;
     width: 100vw;
     background-position: center;
     background-repeat: no-repeat;
@@ -374,7 +373,7 @@ section {
 
   
 .redspec {
-    background-color: #5F1A1A;
+    background-color: #6E1E1B;
     opacity: 0.85;
     
 }
