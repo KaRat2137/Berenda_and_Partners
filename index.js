@@ -1,3 +1,21 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyD2P89eZUCagsXGUlYEmtotG9hyeq9paJY",
+  authDomain: "berenda-and-partners.firebaseapp.com",
+  projectId: "berenda-and-partners",
+  storageBucket: "berenda-and-partners.appspot.com",
+  messagingSenderId: "1067338064862",
+  appId: "1:1067338064862:web:ff6d620bce25b1a9d5b34f"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+
 let gandhiElement = document.getElementById("gandhi-text")
 let oldScrollY = window.scrollY
 let regExp = /\(([^)]+)\)/;
