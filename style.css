@@ -1,7 +1,3 @@
-@font-face {
-  font-family: 'Titillium Web';
-  src: url('TitilliumWeb-Regular.ttf');
-}
 body {
     background-color: #F7F7F7;
     font-family: "Titillium Web", sans-serif;
@@ -61,7 +57,7 @@ section {
   .navbar .nav-container a {
     text-decoration: none;
     color: #ffffff;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1.5rem;
     padding: 0.7rem;
   }
@@ -385,20 +381,20 @@ section {
 
 h4 {
   color: #ffffff;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1.3rem;
 }
 
 h1
 {
   color: #BF2E2E;
-  font-weight: 800;
+  font-weight: 600;
   font-size: 1.6rem;
 }
 
 h3 {
   color: #E5E5E5;
-  font-weight: 800;
+  font-weight: 600;
   font-size: 1.9rem;
 }
 
