@@ -11,6 +11,222 @@ html {
     padding: 0;
     box-sizing: border-box;
   }
+
+
+@media only screen and (max-width: 700px) {
+.logo {
+  right: 3% !important;
+}
+
+.navbar .menu-items {
+  width: 80% !important;
+
+}
+
+.intro {
+  padding-left: 7.8% !important;
+  width: 90% !important;
+  padding-bottom: 5px !important;
+  padding-top: 5px !important;
+}
+
+.abouts {
+  padding-right: 5% !important;
+  padding-left: 2.5% !important;
+  width: 90% !important;
+  margin-bottom: 40px !important;
+}
+
+.redspec-line {
+  width: 80% !important;
+}
+
+.happygroup {
+  background-size: 206% !important;
+  height: 500px !important;
+}
+
+#redspec {
+  top: -465px !important;
+}
+
+.staray {
+  display: none !important;
+}
+
+.boardinfo {
+  margin-left: 2.5% !important;
+  padding-right: 5% !important;
+  width: 90% !important;
+}
+
+.board {
+  top: -350px !important;
+  justify-content: left !important;
+}
+#coachingpicture {
+  background-size: 150% !important;
+  height: 250px !important;
+}
+
+#clients1 {
+  margin-top: 50px !important;
+}
+
+.boardpicture {
+
+  margin-top: 30px !important;
+  margin-left: 0% !important;
+  width: 100% !important;
+}
+
+.boardpicture2 {
+
+margin-right: 0% !important;
+width: 100% !important;
+margin-bottom: 35px !important;
+}
+
+.boardinfo {
+
+  padding-left: 5% !important;
+  width: 90% !important;
+}
+
+.boardinfo2 {
+
+  padding-left: 7.5% !important;
+  width: 90% !important;
+
+}
+.board2 {
+  top: -300px !important;
+}
+
+#coaching {
+
+  margin-top: 50px !important;
+  top: -150px !important;
+  position: relative;
+}
+
+.white {
+  margin-left: 7.5% !important;
+  top: -150px !important;
+  position: relative;
+  margin-right: 5% !important;
+  width: 85% !important;
+
+}
+
+#coachingpicture {
+  display: none !important;
+}
+
+#gandhi {
+  top: -200px !important;
+  position: relative;
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+  text-align: center !important;
+}
+
+#gandhi2 {
+  width: 80% !important;
+  text-align: unset !important;
+
+}
+
+.gandhi3 {
+  width: 80% !important;
+  text-align: left !important;
+  font-size: 1.1rem !important;
+
+}
+
+.gandhi2 {
+  margin-top: 20px !important;
+  font-size: 1.4rem !important;
+
+}
+
+#clients2 {
+  background-color: #f4f4f4;
+  margin-top: 30px !important;
+}
+
+#client {
+  width: 90% !important;
+  margin-right: 5% !important;
+  margin-left: 5% !important;
+  font-size: 1.2rem !important;
+}
+.kontakt {
+  top: -150px !important;
+  position: relative;
+
+}
+#kontakt {
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+  
+}
+
+#map {
+  margin-top: 0px !important;
+  top: -100px !important;
+  position: relative;
+}
+
+.footer {
+  flex-direction: column !important;
+  align-items: center;
+  margin-top: 40px !important;
+  top: -50px !important;
+  position: relative;
+}
+
+#footer1 {
+  width: 100% !important;
+}
+
+#footer2 {
+  align-self: auto !important;
+  width: unset !important;
+  margin-top: 40px;
+}
+.footer-anchor {
+  margin: 5px 10px !important;
+}
+
+}
+
+/* unvisited link */
+a:link {
+  color: #d33934;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #d33934;
+  text-decoration: none;
+}
+a {
+  display: inline;
+}
+/* mouse over link */
+a:hover {
+  color: #c45450;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: #d33934;
+  text-decoration: none;
+}
+
 #intro {
   transition: left 1.5s;
   position: relative;
@@ -150,8 +366,8 @@ section {
 
   #gandhi {
     background-color: #822825;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     display: flex;
     flex-direction: row;
     text-align: left;
@@ -230,13 +446,15 @@ section {
     align-items: center;
     flex-direction: column;
     background-image: url("kontakt.png");
+    background-position: center;
     background-color: #1E1E1E;
+    text-shadow: 1px 1px 4px #1E1E1E;
   }
 
   #kontakt {
     text-align: center;
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 120px;
+    margin-bottom: 120px;
     width: 80%;
     color: #E5E5E5;
   }
@@ -473,7 +691,6 @@ h5
 }
 
 .boardinfo {
-  display: flex;
   flex-direction: column;
   text-align: left;
   margin-left: 5%;
