@@ -33,16 +33,16 @@ body {
   background-position: center;
   font-size: 1.2rem !important;
   background-size: cover;
-  padding-top: 140px !important;
-  padding-bottom: 20px !important;
+  padding-top: 105px !important;
+  padding-bottom: 17.5px !important;
   background-position-y: 37px;
 }
 .intro {
   padding-left: 7.8% !important;
   width: 90% !important;
-  padding-bottom: 20px !important;
-  padding-top: 20px !important;
-  padding-right: 5px;
+  padding-bottom: 12.5px !important;
+  padding-top: 12.5px !important;
+  padding-right: 10px !important;
   text-shadow: 1px 1px 4px #1E1E1E !important;
   background-color: #222222;
   opacity: 0.75 !important;
@@ -56,18 +56,19 @@ body {
 }
 
 h4 {
-  font-size: 1.15rem !important;
+  font-size: 1.2rem !important;
 }
 
 .abouts {
   padding-right: 0% !important;
   padding-left: 2.5% !important;
+  padding-top: 35px !important;
   width: 90% !important;
   margin-bottom: 40px !important;
 }
 
 .redspec-line {
-  width: 85% !important;
+  width: 80% !important;
 }
 
 .redspec {
