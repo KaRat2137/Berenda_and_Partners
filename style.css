@@ -33,7 +33,8 @@ body {
   background-position: center;
   font-size: 1.2rem !important;
   background-size: cover;
-  padding-top: 60px !important;
+  padding-top: 90px !important;
+  padding-top: 80px !important;
   background-position-y: 37px;
 }
 .intro {
@@ -47,8 +48,15 @@ body {
   opacity: 0.75 !important;
 }
 
+.icon {
+  width: 45px !important;
+  padding-bottom: 10px !important;
+  padding-top: 10px !important;
+  margin-right: 30px !important;
+}
+
 h4 {
-  font-size: 1.25rem !important;
+  font-size: 1.15rem !important;
 }
 
 .abouts {
@@ -142,6 +150,9 @@ margin-bottom: 35px !important;
   margin-right: 5% !important;
   width: 85% !important;
 
+}
+.grey {
+  background-color: #ffffff !important;
 }
 
 #coachingpicture {
