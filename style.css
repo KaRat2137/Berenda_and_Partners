@@ -33,9 +33,9 @@ body {
   background-position: center;
   font-size: 1.2rem !important;
   background-size: cover;
-  padding-top: 115px !important;
+  padding-top: 175px !important;
   padding-bottom: 17.5px !important;
-  background-position-y: 37px;
+  background-position-y: 20px;
 }
 .intro {
   padding-left: 7.8% !important;
@@ -43,7 +43,6 @@ body {
   padding-bottom: 12.5px !important;
   padding-top: 12.5px !important;
   padding-right: 10px !important;
-  text-shadow: 1px 1px 4px #1E1E1E !important;
   background-color: #222222;
   opacity: 0.75 !important;
 }
