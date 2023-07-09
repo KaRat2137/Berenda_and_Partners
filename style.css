@@ -200,15 +200,16 @@ margin-bottom: 35px !important;
 .kontakt {
   top: -175px !important;
   position: relative;
-  background-position-x: -175px !important;
+  background-position-x: -145px !important;
   background-size: cover !important;
-  text-shadow: 0px 1px 2px #000000 !important;
+  text-shadow: 0px 0px 4px #2b2b2b !important;
   color: white !important;
+  background-image: url(/kontakt2.png) !important;
 
 }
 #kontakt {
-  margin-top: 50px !important;
-  margin-bottom: 50px !important;
+  margin-top: 40px !important;
+  margin-bottom: 40px !important;
   
 }
 
