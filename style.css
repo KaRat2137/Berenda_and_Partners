@@ -20,7 +20,7 @@ html, body {
 }
 
 body {
-  font-size: 17px !important;
+  font-size: 16px !important;
   }
 
 .navbar .menu-items {
@@ -108,9 +108,15 @@ h4 {
 
 .boardpicture {
 
+  display: none !important;
+}
+.boardpicture3 {
+  display: block !important;
   margin-top: 30px !important;
   margin-left: 0% !important;
   width: 100% !important;
+  position: relative;
+  top: -30px;
 }
 
 .boardpicture2 {
@@ -762,6 +768,10 @@ h5
   margin-right: 7%;
   text-align: left;
   width: 45%;
+}
+
+.boardpicture3 {
+  display: none;
 }
 
 .icon {
