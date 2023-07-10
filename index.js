@@ -17,6 +17,7 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 
 let gandhiElement = document.getElementById("gandhi-text")
+let checkboxElement = document.getElementById("navCheckbox")
 let oldScrollY = window.scrollY
 let regExp = /\(([^)]+)\)/;
 
@@ -31,6 +32,13 @@ window.addEventListener('scroll', () => {
       if(scaleValue >= 1) {
         gandhiElement.style.transform = `scale(${scaleValue - 0.001})`
       }
+    }
+  }
+});
+document.addEventListener("click", (event) => {
+  if(event.target != checkboxElement) {
+    if(checkboxElement.checked) {
+      checkboxElement.checked = false;
     }
   }
 });
