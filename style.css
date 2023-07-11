@@ -120,7 +120,7 @@ h4 {
 }
 
 #clients1 {
-  margin-top: 50px !important;
+  padding-top: 60px !important;
 }
 
 .boardpicture {
@@ -475,7 +475,7 @@ section {
   #clients1 {
     flex-direction: column;
     text-align: center;
-    margin-top: 100px;
+    padding-top: 100px;
   }
 
   #clients2 {
@@ -502,7 +502,6 @@ section {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position-y: 41px;
     width: 100%;
   }
 
