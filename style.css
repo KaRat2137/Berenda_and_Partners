@@ -7,6 +7,11 @@ html, body {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
+
+#founders {
+
+  padding-top: 60px
+}
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +23,9 @@ html, body {
 .logo {
   right: 3% !important;
 }
-
+#kontakt-us {
+  padding-top: 40px;
+}
 body {
   font-size: 16px !important;
   }
@@ -81,8 +88,12 @@ h4 {
 
 #redspec {
   top: -350px !important;
+  margin-bottom: -60px;
+  margin-top: 50px;
 }
-
+#clients {
+  margin-top: 60px
+}
 .staray {
   display: none !important;
 }
@@ -99,7 +110,13 @@ h4 {
 }
 #clients {
   background-size: 150% !important;
-  height: 250px !important;
+  position: relative;
+  top: -250px;
+}
+#contact {
+  margin-top: 100px !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 #clients1 {
@@ -147,6 +164,7 @@ margin-bottom: 35px !important;
   margin-top: 50px !important;
   top: -175px !important;
   position: relative;
+  margin-bottom: -60px
 }
 
 .white {
@@ -201,7 +219,7 @@ margin-bottom: 35px !important;
   width: 90% !important;
   margin-right: 5% !important;
   margin-left: 5% !important;
-  font-size: 1.2rem !important;
+  font-size: 1.1rem !important;
 }
 .kontakt {
   top: -175px !important;
