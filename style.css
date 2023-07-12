@@ -266,6 +266,50 @@ margin-bottom: 35px !important;
 
 }
 
+@media only screen and (min-width: 1500px) {
+  
+body {
+  font-size: 23px !important;
+   }
+
+h1 {
+  font-size: 1.8rem !important;
+}
+
+h3 {
+  font-size: 2rem !important;
+}
+
+h4 {
+  font-size: 1.6rem !important;
+}
+.abouts {
+  padding-top: 100px !important;
+}
+.intro {
+  padding-top: 60px !important;
+  padding-bottom: 60px !important;
+}
+
+.intro_bg
+{
+  font-size: 1.8rem !important;
+}
+
+.gandhi2 {
+  font-size: 2.4rem !important;
+}
+.gandhi3 {
+  font-size: 1.8rem !important;
+}
+
+#redspec {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+}
+
+}
+
 /* unvisited link */
 a:link {
   color: #d33934;
@@ -511,6 +555,7 @@ section {
     align-items: center;
     flex-direction: column;
     background-image: url("kontakt.png");
+    background-size: cover;
     background-position: center;
     background-color: #1E1E1E;
     text-shadow: 1px 1px 4px #1E1E1E;
