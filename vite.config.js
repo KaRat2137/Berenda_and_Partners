@@ -7,6 +7,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
+        polish: resolve(__dirname, 'pl/index.html'),
         english: resolve(__dirname, 'en/index.html'),
       },
     },
