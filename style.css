@@ -541,11 +541,12 @@ section {
   
   #coachingpicture {
     background: url(coach.png);
-    background-size: 100%;
-    height: 500px;
+    background-size: cover;
+    height: 700px;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position-y: 30px;
     width: 100%;
   }
 
